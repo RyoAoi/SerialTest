@@ -24,6 +24,8 @@ void loop()
         }
 		else if(getstr == 'k') {
             g_display_mode = MODE_HELLO_KM;
+        }else {
+          g_display_mode =5;
         }
     }
 
